@@ -1225,7 +1225,7 @@ end)
 
 local function ButtonFrame(Instance, Title, Description, HolderSize)
 	local TitleL = InsertTheme(Create("TextLabel", {
-		Font = Enum.Font.Cartoon, -- cartoon font
+		Font = Enum.Font.Arcade, -- cartoon font
 		TextColor3 = Theme["Color Text"],
 		Size = UDim2.new(1, -20),
 		AutomaticSize = "Y",
@@ -1643,7 +1643,7 @@ end
 			AnchorPoint = Vector2.new(0.5, 0.5)
 		}, {
 			InsertTheme(Create("TextLabel", {
-				Font = Enum.Font.Cartoon,
+				Font = Enum.Font.Arcade,
 				Size = UDim2.new(1, 0, 0, 20),
 				Text = DTitle,
 				TextXAlignment = "Left",
@@ -1868,7 +1868,7 @@ end
 			})
 			
 			local SectionLabel = InsertTheme(Create("TextLabel", SectionFrame, {
-				Font = Enum.Font.Cartoon, -- cartoon
+				Font = Enum.Font.Arcade -- cartoon
 				Text = SectionName,
 				TextColor3 = Theme["Color Dark Purple"],
 				Size = UDim2.new(1, -25, 1, 0),
